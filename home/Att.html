@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>让鼠鼠跑起来</title>
+  <link rel="stylesheet" href="static/css/Att_style.css">
+
+
+   <!-- 回字位置 -->
+   <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+    .hui-text {
+            position: fixed;
+            bottom: 35%;
+            left: 50%;
+            transform: translateX(calc(-50% ));
+        }
+    .shushurun-text {
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            transform: translateX(calc(-50% ));
+        }    
+        
+</style>
+
+
+
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <div class="wheel-frame pix">
+    <div class="wheel">
+      <div class="wheel-support pix"></div>
+      <div class="hamster puff pix">
+        <div class="ear pix"></div>
+        <div class="head puff pix"></div>
+        <div class="bum puff pix"></div>
+      </div>
+    </div>
+  </div>
+  <input type="range" name="speed" min="0" max="11" value="3">
+</div>
+
+<div class="container">
+    <span class="shushurun-text">让鼠鼠跑起来</span>
+    <span class="hui-text"> <a href="index.html">GO BACK 返回主页(存在响应问题，好麻烦好麻烦)</a></span>
+</div>
+
+<!-- partial -->
+  <script  src="static/js/Att_script.js"></script>
+
+</body>
+</html>
